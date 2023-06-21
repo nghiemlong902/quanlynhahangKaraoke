@@ -1,0 +1,93 @@
+body {
+
+    background-image: linear-gradient(rgba(58, 57, 57, 0.45), rgba(58, 57, 57, 0.45)), url("../hinh/RE4wB6h.jpg");
+}
+
+#nav1 {
+    padding: 10px 0px;
+    opacity: 0.9;
+    z-index: 100;
+    
+
+}
+
+#nav2 {
+    opacity: 0.9;
+    line-height: 70px;
+    z-index: 1;
+}
+
+p,h2,a,span{
+    color: white;
+}
+
+#nav1 li {
+    margin-right: 80px;
+}
+ul{
+    list-style: none;
+}
+.listSP{
+    padding-left: 0px;
+    display:none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+#formtk{
+    margin-bottom: 10px !important;
+    width: 280px;
+}
+.listSP li {
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1.2px dotted black;
+}
+.listSP li a{
+    color: black;
+}
+.listSP img{
+    width: 40px;
+    margin-right: 10px;
+}
+section {
+    padding: 40px 30%;
+}
+#form a img{
+    height: 45px;
+}
+#footer {
+    height: 80px;
+    padding-left: 12%;
+    opacity: 0.9;
+}
+
+footer img {
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.modal-dialog {
+    width: 800px;
+    margin: 30px auto;
+}
+
+@media (min-width: 500px) {
+    #reponsive{
+         width: 500px;
+    }
+    #logo{
+        width: 500px ;
+        padding-left: 180px ;
+    }
+    
+}
+@media (min-width: 1070px) {
+    #reponsive{
+         width: 1040px;
+    }
+    #logo{
+        width: 132px;
+        padding-left: 0px;
+    }
+    
+}

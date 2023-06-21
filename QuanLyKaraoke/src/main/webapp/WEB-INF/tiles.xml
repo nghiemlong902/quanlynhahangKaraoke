@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Base Define -->
+	<definition name="base.definition"
+		template="/WEB-INF/layouts/classic.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/basefragments/_header.jsp" />
+		<put-attribute name="menu"
+			value="/WEB-INF/basefragments/_menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/basefragments/_footer.jsp" />
+	</definition>
+
+	<!-- Home Page -->
+	<definition name="homePage" extends="base.definition">
+		<put-attribute name="title" value="Home Page" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/_home.jsp" />
+	</definition>
+
+	<definition name="customerManager" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/CustomerManager.jsp" />
+	</definition>
+
+
+	<definition name="AddNewCustomer" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/AddNewCustomer.jsp" />
+	</definition>
+
+	<definition name="UpdateCustomer" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/UpdateCustomer.jsp" />
+	</definition>
+
+	<definition name="Room" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/Room.jsp" />
+	</definition>
+
+	<definition name="CustomerReverse" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/CustomerReverse.jsp" />
+	</definition>
+
+	<definition name="ViewInvoice" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/ViewInvoice.jsp" />
+	</definition>
+
+	<definition name="LoginCustomer" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/LoginCustomer.jsp" />
+	</definition>
+
+	<definition name="RegisterCustomer"
+		extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/RegisterCustomer.jsp" />
+	</definition>
+
+	<definition name="Home" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/Home.jsp" />
+	</definition>
+
+	<definition name="LoginEmployee" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/LoginEmployee.jsp" />
+	</definition>
+
+	<definition name="RegisterEmployee"
+		extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/RegisterEmployee.jsp" />
+	</definition>
+
+	<definition name="SearchRoom" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/SearchRoom.jsp" />
+	</definition>
+
+	<definition name="LoginManager" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/LoginManager.jsp" />
+	</definition>
+
+	<definition name="RegisterManager" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/RegisterManager.jsp" />
+	</definition>
+
+
+	<definition name="Product" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/Product.jsp" />
+	</definition>
+
+	<definition name="Supplier" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/Supplier.jsp" />
+	</definition>
+
+	<definition name="SelectProduct" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/SelectProduct.jsp" />
+	</definition>
+
+	<definition name="AddProductBySupplier"
+		extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/AddProductBySupplier.jsp" />
+	</definition>
+
+	<definition name="SuccessAdd" extends="base.definition">
+		<put-attribute name="title" value="Contact Us" />
+		<put-attribute name="body"
+			value="/WEB-INF/bodyfragments/SuccessAdd.jsp" />
+	</definition>
+
+</tiles-definitions>

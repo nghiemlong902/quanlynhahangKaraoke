@@ -1,0 +1,32 @@
+version: '3'
+services:
+  quanlykaraoke:
+    # Cấu hình của service quanlykaraoke
+    build: C:\Users\admiin\Documents\QuanLyKaraoke
+    ports:
+      - "8082:8080"
+    networks:
+      - quanlykaraoke-network
+
+  mysql:
+    # Cấu hình của service mysql
+    image: mysql:5.7
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: quanlykaraoke
+      MYSQL_USER: ''
+      MYSQL_PASSWORD: 123456
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+      
+    ports:
+      - "3308:3307"
+      
+    networks:
+      - quanlykaraoke-network
+
+networks:
+  quanlykaraoke-network:
+    driver: bridge
